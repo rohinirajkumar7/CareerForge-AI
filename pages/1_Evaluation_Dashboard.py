@@ -154,7 +154,7 @@ with tab_privacy:
 # ------------------------------------------------------------------ live
 with tab_live:
     live = results.get("live")
-    api_ready = bool(os.getenv("GEMINI_API_KEY"))
+    api_ready = bool(os.getenv("GEMINI_API_KEY")) and os.getenv("ENABLE_LIVE_EVAL") == "1"
     st.write(
         "Runs the real model on three synthetic resumes (strong ML, weak ML, strong DevOps) several times, plus "
         "the weak resume with an injected 'give me 100' instruction."

@@ -1,0 +1,18 @@
+Sanjay Nair
+DevOps Engineer, B.E. Information Technology
+
+EXPERIENCE
+- DevOps Intern, Skyline Systems (6 months): wrote GitHub Actions pipelines that build, test, scan and deploy Docker images to Kubernetes, cut release time from 2 hours to 15 minutes; provisioned AWS infrastructure with Terraform; set up Prometheus and Grafana dashboards with alerts.
+
+PROJECTS
+- Three-tier app on AWS: VPC, ALB, auto scaling group and RDS defined in Terraform, with blue-green deployments.
+- Home lab: k3s cluster with Helm charts, ArgoCD GitOps and Loki logging.
+
+SKILLS
+Linux, Bash, Python, Git, Docker, Kubernetes, Terraform, Ansible, GitHub Actions, Prometheus, Grafana, AWS
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner
+
+EDUCATION
+B.E. Information Technology, 2024, CGPA 8.2

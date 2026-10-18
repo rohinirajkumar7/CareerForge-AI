@@ -1,0 +1,194 @@
+{
+  "queries": [
+    {
+      "query": "terraform vpc iam auto scaling aws load balancer",
+      "relevant": [
+        "cloud-engineer:skills"
+      ]
+    },
+    {
+      "query": "github actions jenkins pipeline docker kubernetes canary deployment",
+      "relevant": [
+        "devops-engineer:skills",
+        "devops-engineer:interview"
+      ]
+    },
+    {
+      "query": "owasp top 10 burp suite nmap siem",
+      "relevant": [
+        "cybersecurity-engineer:skills"
+      ]
+    },
+    {
+      "query": "sql window functions pivot tables power bi dashboard",
+      "relevant": [
+        "data-analyst:skills"
+      ]
+    },
+    {
+      "query": "hypothesis testing a/b test confidence interval regression",
+      "relevant": [
+        "data-scientist:skills",
+        "data-scientist:interview"
+      ]
+    },
+    {
+      "query": "pytorch scikit-learn model deployment mlflow data drift",
+      "relevant": [
+        "ml-engineer:skills"
+      ]
+    },
+    {
+      "query": "react node express jwt authentication mongodb",
+      "relevant": [
+        "fullstack-developer:skills"
+      ]
+    },
+    {
+      "query": "data structures algorithms object oriented design git testing",
+      "relevant": [
+        "software-engineer:skills"
+      ]
+    },
+    {
+      "query": "interview questions bias variance gradient descent transformer attention",
+      "relevant": [
+        "ml-engineer:interview"
+      ]
+    },
+    {
+      "query": "interview questions xss csrf sql injection tls encryption incident response",
+      "relevant": [
+        "cybersecurity-engineer:interview"
+      ]
+    },
+    {
+      "query": "interview questions closures promises event loop react hooks cors",
+      "relevant": [
+        "fullstack-developer:interview"
+      ]
+    },
+    {
+      "query": "interview questions vpc subnet iam high availability disaster recovery",
+      "relevant": [
+        "cloud-engineer:interview"
+      ]
+    },
+    {
+      "query": "interview questions joins group by kpi dashboard drop in metric",
+      "relevant": [
+        "data-analyst:interview"
+      ]
+    },
+    {
+      "query": "portfolio project churn prediction a/b test analysis forecasting",
+      "relevant": [
+        "data-scientist:projects"
+      ]
+    },
+    {
+      "query": "portfolio project home lab siem dvwa capture the flag",
+      "relevant": [
+        "cybersecurity-engineer:projects"
+      ]
+    },
+    {
+      "query": "portfolio project terraform three tier serverless lambda cost estimate",
+      "relevant": [
+        "cloud-engineer:projects"
+      ]
+    },
+    {
+      "query": "portfolio project ci/cd pipeline helm prometheus grafana runbook postmortem",
+      "relevant": [
+        "devops-engineer:projects"
+      ]
+    },
+    {
+      "query": "portfolio project rag chatbot nlp classifier fastapi docker",
+      "relevant": [
+        "ml-engineer:projects"
+      ]
+    },
+    {
+      "query": "portfolio project e-commerce websocket chat deployed react backend",
+      "relevant": [
+        "fullstack-developer:projects"
+      ]
+    },
+    {
+      "query": "learning path linux networking then terraform then kubernetes monitoring",
+      "relevant": [
+        "devops-engineer:roadmap",
+        "cloud-engineer:roadmap"
+      ]
+    },
+    {
+      "query": "what does a data analyst do reports dashboards stakeholders",
+      "relevant": [
+        "data-analyst:overview"
+      ]
+    },
+    {
+      "query": "role responsibilities machine learning models production monitoring",
+      "relevant": [
+        "ml-engineer:overview"
+      ]
+    },
+    {
+      "query": "protect systems networks incident response threat monitoring analyst",
+      "relevant": [
+        "cybersecurity-engineer:overview"
+      ]
+    },
+    {
+      "query": "build user interface and server side web applications",
+      "relevant": [
+        "fullstack-developer:overview"
+      ]
+    },
+    {
+      "query": "start with excel then sql then power bi then python pandas",
+      "relevant": [
+        "data-analyst:roadmap"
+      ]
+    },
+    {
+      "query": "learn python statistics then scikit-learn then pytorch then mlops",
+      "relevant": [
+        "ml-engineer:roadmap"
+      ]
+    },
+    {
+      "query": "html css javascript then react then node backend then deployment",
+      "relevant": [
+        "fullstack-developer:roadmap"
+      ]
+    },
+    {
+      "query": "networking fundamentals then cryptography then owasp labs tryhackme certification",
+      "relevant": [
+        "cybersecurity-engineer:roadmap"
+      ]
+    },
+    {
+      "query": "cloud engineer manage compute storage networking infrastructure as code",
+      "relevant": [
+        "cloud-engineer:overview"
+      ]
+    },
+    {
+      "query": "statistics experimentation business questions communicate stakeholders",
+      "relevant": [
+        "data-scientist:overview"
+      ]
+    }
+  ],
+  "off_topic": [
+    "quantum computing qubit error correction",
+    "pastry chef culinary arts sourdough",
+    "wedding photography lighting portraits",
+    "commercial pilot licence flight hours",
+    "corporate tax law audit compliance"
+  ]
+}

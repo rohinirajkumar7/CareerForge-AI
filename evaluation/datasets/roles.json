@@ -1,0 +1,78 @@
+{
+  "known": [
+    [
+      "AI / Machine Learning Engineer",
+      "ml-engineer"
+    ],
+    [
+      "Data Scientist",
+      "data-scientist"
+    ],
+    [
+      "Data Analyst",
+      "data-analyst"
+    ],
+    [
+      "Software Engineer",
+      "software-engineer"
+    ],
+    [
+      "Full Stack Developer",
+      "fullstack-developer"
+    ],
+    [
+      "Cybersecurity Engineer",
+      "cybersecurity-engineer"
+    ],
+    [
+      "Cloud Engineer",
+      "cloud-engineer"
+    ],
+    [
+      "DevOps Engineer",
+      "devops-engineer"
+    ],
+    [
+      "Machine Learning Engineer",
+      "ml-engineer"
+    ],
+    [
+      "MLOps Engineer",
+      "ml-engineer"
+    ],
+    [
+      "Business Analyst",
+      "data-analyst"
+    ],
+    [
+      "Backend Developer",
+      "software-engineer"
+    ],
+    [
+      "Web Developer",
+      "fullstack-developer"
+    ],
+    [
+      "Security Analyst",
+      "cybersecurity-engineer"
+    ],
+    [
+      "Site Reliability Engineer",
+      "devops-engineer"
+    ],
+    [
+      "AWS Cloud Architect",
+      "cloud-engineer"
+    ]
+  ],
+  "unknown": [
+    "Quantum Engineer",
+    "Mobile App Developer",
+    "Game Developer",
+    "Blockchain Developer",
+    "Product Manager",
+    "Data Engineer",
+    "Embedded Systems Engineer",
+    "UX Designer"
+  ]
+}

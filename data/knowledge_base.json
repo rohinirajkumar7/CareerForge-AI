@@ -1,0 +1,322 @@
+[
+  {
+    "id": "ml-engineer:overview",
+    "role": "AI / Machine Learning Engineer",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "AI and Machine Learning Engineers build, train, evaluate and deploy machine learning models that run in production. They turn research prototypes and data science experiments into reliable services, monitor model quality over time, and work closely with data engineers and backend developers. Entry-level roles expect solid Python, machine learning fundamentals and at least one deployed project.",
+    "aliases": "ml engineer, machine learning, deep learning engineer, ai engineer, artificial intelligence, mlops"
+  },
+  {
+    "id": "ml-engineer:skills",
+    "role": "AI / Machine Learning Engineer",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: Python, NumPy, pandas, scikit-learn, PyTorch or TensorFlow, statistics and linear algebra, supervised and unsupervised learning, neural networks, model evaluation metrics (precision, recall, F1, ROC-AUC), feature engineering, overfitting and regularization, cross-validation. Production skills: Docker, REST APIs with FastAPI or Flask, Git, SQL, MLflow experiment tracking, model deployment, monitoring and data drift. Nice to have: transformers, NLP, computer vision, LLM applications, vector databases, cloud machine learning services.",
+    "aliases": "ml engineer, machine learning, deep learning engineer, ai engineer, artificial intelligence, mlops"
+  },
+  {
+    "id": "ml-engineer:interview",
+    "role": "AI / Machine Learning Engineer",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: bias-variance tradeoff, regularization, how gradient descent works, evaluation metrics for imbalanced data, cross-validation, feature engineering, handling missing data, detecting overfitting, how random forests and gradient boosting differ, backpropagation, transformer attention, deploying a model behind an API, monitoring data drift, and explaining a past machine learning project end to end including trade-offs.",
+    "aliases": "ml engineer, machine learning, deep learning engineer, ai engineer, artificial intelligence, mlops"
+  },
+  {
+    "id": "ml-engineer:projects",
+    "role": "AI / Machine Learning Engineer",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: an end-to-end machine learning pipeline with data cleaning, training, experiment tracking and a FastAPI endpoint packaged in Docker; an NLP text classifier or semantic search system; a computer vision classifier with error analysis; a retrieval augmented generation chatbot with measured answer quality; a model monitoring dashboard that detects data drift. Strong projects state a clear metric, compare against a baseline and include a deployed demo.",
+    "aliases": "ml engineer, machine learning, deep learning engineer, ai engineer, artificial intelligence, mlops"
+  },
+  {
+    "id": "ml-engineer:roadmap",
+    "role": "AI / Machine Learning Engineer",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: first Python, NumPy, pandas and statistics; then classical machine learning with scikit-learn and rigorous evaluation; then deep learning with PyTorch and one specialization such as NLP or vision; then MLOps basics including Docker, FastAPI, experiment tracking and CI; finally build and deploy two end-to-end projects and practice explaining design decisions.",
+    "aliases": "ml engineer, machine learning, deep learning engineer, ai engineer, artificial intelligence, mlops"
+  },
+  {
+    "id": "data-scientist:overview",
+    "role": "Data Scientist",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "Data Scientists use statistics, experimentation and machine learning to answer business questions and guide decisions. They explore data, build predictive models, run A/B tests and communicate findings to non-technical stakeholders. Compared with machine learning engineers they focus more on analysis, hypothesis testing and storytelling than on production systems.",
+    "aliases": "data science, applied scientist, research scientist"
+  },
+  {
+    "id": "data-scientist:skills",
+    "role": "Data Scientist",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: Python or R, pandas, NumPy, SQL, statistics (probability, distributions, hypothesis testing, confidence intervals, regression), exploratory data analysis, data visualization with matplotlib, seaborn or Plotly, scikit-learn, feature engineering, A/B testing, model evaluation. Tools: Jupyter, Git, Tableau or Power BI. Nice to have: time series forecasting, causal inference, Spark, basic deep learning, cloud notebooks.",
+    "aliases": "data science, applied scientist, research scientist"
+  },
+  {
+    "id": "data-scientist:interview",
+    "role": "Data Scientist",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: p-values and hypothesis testing, central limit theorem, A/B test design and sample size, correlation versus causation, SQL joins and window functions, handling missing data and outliers, bias-variance tradeoff, choosing evaluation metrics, regression assumptions, feature selection, explaining a model to a business audience, and a case study analyzing a drop in a business metric.",
+    "aliases": "data science, applied scientist, research scientist"
+  },
+  {
+    "id": "data-scientist:projects",
+    "role": "Data Scientist",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: an exploratory analysis of a real public dataset with a clear business question and recommendations; a customer churn prediction model with interpretation of important features; an A/B test analysis with statistical significance and effect size; a demand or sales forecasting project; an interactive dashboard that presents insights to stakeholders. Document the question, method, result and limitations.",
+    "aliases": "data science, applied scientist, research scientist"
+  },
+  {
+    "id": "data-scientist:roadmap",
+    "role": "Data Scientist",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: Python, pandas and SQL first; then probability and statistics; then visualization and exploratory data analysis; then machine learning with scikit-learn; then experimentation and A/B testing; finally complete three portfolio analyses with written conclusions and practice presenting insights.",
+    "aliases": "data science, applied scientist, research scientist"
+  },
+  {
+    "id": "data-analyst:overview",
+    "role": "Data Analyst",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "Data Analysts collect, clean and analyze data to produce reports and dashboards that help teams make decisions. They write SQL queries, build visualizations, define metrics and explain trends to business stakeholders. The role emphasizes SQL, spreadsheets, business intelligence tools and clear communication more than machine learning.",
+    "aliases": "business analyst, bi analyst, analytics, reporting analyst, business intelligence"
+  },
+  {
+    "id": "data-analyst:skills",
+    "role": "Data Analyst",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: SQL (joins, aggregations, subqueries, window functions), Excel or Google Sheets (pivot tables, lookup functions), Power BI or Tableau dashboards, Python with pandas for cleaning, basic statistics, data cleaning and validation, KPI and metric definition, data storytelling. Nice to have: basic A/B testing, dbt, data warehousing concepts, Looker, automation with Python scripts.",
+    "aliases": "business analyst, bi analyst, analytics, reporting analyst, business intelligence"
+  },
+  {
+    "id": "data-analyst:interview",
+    "role": "Data Analyst",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: SQL joins and window functions, GROUP BY and HAVING, removing duplicates, handling nulls, designing a dashboard for a KPI, explaining a drop in a metric, Excel pivot tables and lookups, data cleaning steps, difference between mean and median, basic statistics, and describing a past analysis that influenced a decision.",
+    "aliases": "business analyst, bi analyst, analytics, reporting analyst, business intelligence"
+  },
+  {
+    "id": "data-analyst:projects",
+    "role": "Data Analyst",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: a sales or marketing dashboard in Power BI or Tableau with defined KPIs; a SQL analysis of an e-commerce dataset answering business questions; a data cleaning project that documents issues found and fixes applied; an automated weekly report built with Python and pandas; a cohort or funnel analysis with recommendations.",
+    "aliases": "business analyst, bi analyst, analytics, reporting analyst, business intelligence"
+  },
+  {
+    "id": "data-analyst:roadmap",
+    "role": "Data Analyst",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: advanced Excel first; then SQL to a confident level including window functions; then a business intelligence tool such as Power BI or Tableau; then Python with pandas for cleaning and automation; then basic statistics; finally build three dashboards or analyses with written insights and recommendations.",
+    "aliases": "business analyst, bi analyst, analytics, reporting analyst, business intelligence"
+  },
+  {
+    "id": "software-engineer:overview",
+    "role": "Software Engineer",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "Software Engineers design, build, test and maintain software systems. Entry-level roles focus on strong programming fundamentals, data structures and algorithms, version control, writing tested and readable code, and learning to work in a team with code review and agile processes.",
+    "aliases": "software developer, backend developer, backend engineer, sde, programmer, application developer"
+  },
+  {
+    "id": "software-engineer:skills",
+    "role": "Software Engineer",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: one or more languages such as Python, Java, C++ or JavaScript, data structures and algorithms, object oriented design, SOLID principles, Git and pull requests, unit and integration testing, SQL and relational databases, REST API design, debugging, operating system and networking basics, complexity analysis. Nice to have: design patterns, concurrency, Docker, CI/CD, system design basics, cloud familiarity.",
+    "aliases": "software developer, backend developer, backend engineer, sde, programmer, application developer"
+  },
+  {
+    "id": "software-engineer:interview",
+    "role": "Software Engineer",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: arrays, strings, hash maps, linked lists, trees, graphs, recursion, dynamic programming, sorting and searching, time and space complexity, object oriented design, database indexing and transactions, REST API design, concurrency basics, testing strategy, system design fundamentals such as caching and load balancing, and discussing a project's architecture and trade-offs.",
+    "aliases": "software developer, backend developer, backend engineer, sde, programmer, application developer"
+  },
+  {
+    "id": "software-engineer:projects",
+    "role": "Software Engineer",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: a REST API service with authentication, a database, tests and CI; a command line tool or library published with documentation; a concurrent or multi-threaded application such as a task queue or cache; an implementation of core data structures with benchmarks; a deployed application with a README that explains design decisions and limitations.",
+    "aliases": "software developer, backend developer, backend engineer, sde, programmer, application developer"
+  },
+  {
+    "id": "software-engineer:roadmap",
+    "role": "Software Engineer",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: master one language and data structures and algorithms; practice problems regularly; learn Git, testing and debugging; build a backend project with a database and REST API; learn object oriented design and basic system design; contribute to open source or build a larger project with tests and CI.",
+    "aliases": "software developer, backend developer, backend engineer, sde, programmer, application developer"
+  },
+  {
+    "id": "fullstack-developer:overview",
+    "role": "Full Stack Developer",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "Full Stack Developers build both the user interface and the server side of web applications. They work with frontend frameworks, backend APIs, databases and deployment, and own features from design to production. Employers look for deployed projects that show authentication, data modeling and responsive interfaces.",
+    "aliases": "full-stack engineer, web developer, frontend developer, mern, mean stack, web application developer"
+  },
+  {
+    "id": "fullstack-developer:skills",
+    "role": "Full Stack Developer",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: HTML, CSS, JavaScript and TypeScript; a frontend framework such as React; Node.js with Express or a backend framework such as Django, FastAPI or Spring Boot; REST APIs; SQL (PostgreSQL or MySQL) and a NoSQL database such as MongoDB; authentication with JWT or sessions; Git; responsive design; testing with Jest or Cypress. Nice to have: Docker, CI/CD, cloud hosting, GraphQL, WebSockets, state management, accessibility.",
+    "aliases": "full-stack engineer, web developer, frontend developer, mern, mean stack, web application developer"
+  },
+  {
+    "id": "fullstack-developer:interview",
+    "role": "Full Stack Developer",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: JavaScript closures, promises and async await, the event loop, React hooks and state management, rendering and performance, REST versus GraphQL, authentication and authorization, CORS, database schema design and indexing, SQL versus NoSQL, security basics such as XSS and CSRF, deployment, and walking through the architecture of a past full stack project.",
+    "aliases": "full-stack engineer, web developer, frontend developer, mern, mean stack, web application developer"
+  },
+  {
+    "id": "fullstack-developer:projects",
+    "role": "Full Stack Developer",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: a full stack application with login, role based access, a relational database and a React frontend deployed online; a real time chat or collaboration app with WebSockets; an e-commerce style app with cart, payments sandbox and admin dashboard; a dashboard that consumes your own REST API with tests and CI. Include a live link, README and architecture diagram.",
+    "aliases": "full-stack engineer, web developer, frontend developer, mern, mean stack, web application developer"
+  },
+  {
+    "id": "fullstack-developer:roadmap",
+    "role": "Full Stack Developer",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: HTML, CSS and JavaScript fundamentals; then React and TypeScript; then a backend with Node.js or Python and REST APIs; then databases and authentication; then testing, Docker and deployment; finally build two deployed applications and document the architecture.",
+    "aliases": "full-stack engineer, web developer, frontend developer, mern, mean stack, web application developer"
+  },
+  {
+    "id": "cybersecurity-engineer:overview",
+    "role": "Cybersecurity Engineer",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "Cybersecurity Engineers protect systems, networks and applications from attacks. They assess vulnerabilities, harden infrastructure, monitor for threats, respond to incidents and help teams build secure software. Entry-level paths include security analyst, SOC analyst, application security and penetration testing roles.",
+    "aliases": "security engineer, security analyst, soc analyst, information security, infosec, penetration tester, application security"
+  },
+  {
+    "id": "cybersecurity-engineer:skills",
+    "role": "Cybersecurity Engineer",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: networking fundamentals (TCP/IP, DNS, HTTP, firewalls), Linux and Windows administration, cryptography basics, the OWASP Top 10 and web application security, vulnerability scanning with Nmap and Nessus, penetration testing tools such as Burp Suite and Metasploit, SIEM and log analysis, incident response, identity and access management, scripting in Python or Bash. Nice to have: cloud security, threat modeling, malware analysis, certifications such as Security+ or CEH.",
+    "aliases": "security engineer, security analyst, soc analyst, information security, infosec, penetration tester, application security"
+  },
+  {
+    "id": "cybersecurity-engineer:interview",
+    "role": "Cybersecurity Engineer",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: the CIA triad, symmetric versus asymmetric encryption, how TLS works, OWASP Top 10 such as SQL injection, XSS and CSRF, common network attacks, firewall and intrusion detection differences, hashing versus encryption, authentication and MFA, incident response steps, how to triage a SIEM alert, principle of least privilege, and walking through how you would secure a web application.",
+    "aliases": "security engineer, security analyst, soc analyst, information security, infosec, penetration tester, application security"
+  },
+  {
+    "id": "cybersecurity-engineer:projects",
+    "role": "Cybersecurity Engineer",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: a home lab that simulates attacks and detections with a SIEM such as Wazuh or Splunk; a vulnerability assessment report of an intentionally vulnerable app such as DVWA with remediation steps; a Python tool for port scanning or log analysis; capture the flag write-ups; a secure authentication system with threat model documentation.",
+    "aliases": "security engineer, security analyst, soc analyst, information security, infosec, penetration tester, application security"
+  },
+  {
+    "id": "cybersecurity-engineer:roadmap",
+    "role": "Cybersecurity Engineer",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: networking and Linux fundamentals; then security concepts and cryptography; then web security with OWASP Top 10 labs; then tools such as Nmap, Burp Suite and a SIEM; then practice platforms such as TryHackMe or Hack The Box; then a security certification and a documented home lab or CTF write-ups.",
+    "aliases": "security engineer, security analyst, soc analyst, information security, infosec, penetration tester, application security"
+  },
+  {
+    "id": "cloud-engineer:overview",
+    "role": "Cloud Engineer",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "Cloud Engineers design, deploy and operate infrastructure on cloud platforms such as AWS, Azure or Google Cloud. They manage compute, storage, networking and security, automate provisioning with infrastructure as code, and keep systems reliable and cost efficient.",
+    "aliases": "cloud architect, cloud developer, aws engineer, azure engineer, gcp engineer, cloud solutions"
+  },
+  {
+    "id": "cloud-engineer:skills",
+    "role": "Cloud Engineer",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: one major cloud provider (AWS, Azure or GCP) including compute (EC2, Lambda), storage (S3), networking (VPC, subnets, load balancers), IAM and security groups, databases and monitoring; Linux; networking fundamentals; infrastructure as code with Terraform or CloudFormation; scripting in Python or Bash; Docker; basic Kubernetes; cost management. Nice to have: CI/CD, serverless architectures, multi-region design, a cloud practitioner or associate certification.",
+    "aliases": "cloud architect, cloud developer, aws engineer, azure engineer, gcp engineer, cloud solutions"
+  },
+  {
+    "id": "cloud-engineer:interview",
+    "role": "Cloud Engineer",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: IaaS versus PaaS versus SaaS, VPC and subnet design, security groups versus network ACLs, IAM roles and least privilege, load balancing and auto scaling, high availability and disaster recovery, object versus block storage, serverless trade-offs, infrastructure as code benefits, cost optimization, monitoring and logging, and designing a highly available web application on the cloud.",
+    "aliases": "cloud architect, cloud developer, aws engineer, azure engineer, gcp engineer, cloud solutions"
+  },
+  {
+    "id": "cloud-engineer:projects",
+    "role": "Cloud Engineer",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: deploy a three tier web application on AWS with a VPC, load balancer, auto scaling and a managed database, provisioned entirely with Terraform; a serverless API using Lambda and API Gateway; a static site with a CDN and a CI/CD pipeline; a monitoring and alerting setup with cost budgets; document the architecture diagram and estimated monthly cost.",
+    "aliases": "cloud architect, cloud developer, aws engineer, azure engineer, gcp engineer, cloud solutions"
+  },
+  {
+    "id": "cloud-engineer:roadmap",
+    "role": "Cloud Engineer",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: Linux and networking basics; then core services of one cloud provider and an associate level certification; then infrastructure as code with Terraform; then Docker and basic Kubernetes; then CI/CD and monitoring; finally build and document two deployed cloud architectures with diagrams and cost estimates.",
+    "aliases": "cloud architect, cloud developer, aws engineer, azure engineer, gcp engineer, cloud solutions"
+  },
+  {
+    "id": "devops-engineer:overview",
+    "role": "DevOps Engineer",
+    "kind": "overview",
+    "title": "Role overview",
+    "text": "DevOps Engineers connect development and operations by automating build, test, release and infrastructure workflows. They build CI/CD pipelines, manage containers and orchestration, monitor production systems and improve reliability, helping teams ship software quickly and safely.",
+    "aliases": "site reliability engineer, sre, platform engineer, release engineer, infrastructure engineer, build engineer"
+  },
+  {
+    "id": "devops-engineer:skills",
+    "role": "DevOps Engineer",
+    "kind": "skills",
+    "title": "Core skills and tools",
+    "text": "Core skills: Linux and shell scripting, Git workflows, CI/CD with GitHub Actions, GitLab CI or Jenkins, Docker, Kubernetes basics, infrastructure as code with Terraform and Ansible, cloud fundamentals on AWS, Azure or GCP, monitoring and logging with Prometheus, Grafana and the ELK stack, networking basics, scripting in Python or Bash. Nice to have: Helm, GitOps with ArgoCD, security scanning in pipelines, SRE practices such as SLOs and incident response.",
+    "aliases": "site reliability engineer, sre, platform engineer, release engineer, infrastructure engineer, build engineer"
+  },
+  {
+    "id": "devops-engineer:interview",
+    "role": "DevOps Engineer",
+    "kind": "interview",
+    "title": "Interview topics",
+    "text": "Common interview topics: CI versus CD, how to design a pipeline, Docker images versus containers, Dockerfile best practices, Kubernetes pods, deployments and services, blue green and canary deployments, infrastructure as code, Terraform state, monitoring versus logging versus tracing, handling a production outage, rollback strategies, Linux troubleshooting, and secrets management.",
+    "aliases": "site reliability engineer, sre, platform engineer, release engineer, infrastructure engineer, build engineer"
+  },
+  {
+    "id": "devops-engineer:projects",
+    "role": "DevOps Engineer",
+    "kind": "projects",
+    "title": "Portfolio project ideas",
+    "text": "Portfolio project ideas: a CI/CD pipeline that builds, tests, scans and deploys a containerized app with GitHub Actions; a Kubernetes deployment with Helm, health checks and autoscaling; infrastructure provisioned with Terraform and configured with Ansible; a monitoring stack with Prometheus and Grafana dashboards and alerts; a documented incident runbook and postmortem for a simulated failure.",
+    "aliases": "site reliability engineer, sre, platform engineer, release engineer, infrastructure engineer, build engineer"
+  },
+  {
+    "id": "devops-engineer:roadmap",
+    "role": "DevOps Engineer",
+    "kind": "roadmap",
+    "title": "Learning roadmap",
+    "text": "Learning path: Linux, shell scripting and Git; then Docker; then CI/CD pipelines; then a cloud provider and Terraform; then Kubernetes; then monitoring and logging; finally build a complete pipeline-to-production project and document the deployment and rollback process.",
+    "aliases": "site reliability engineer, sre, platform engineer, release engineer, infrastructure engineer, build engineer"
+  }
+]

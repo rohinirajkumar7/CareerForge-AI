@@ -1,0 +1,19 @@
+Aditi Verma
+Machine Learning Engineer, final-year B.Tech Computer Science
+
+PROJECTS
+- Churn prediction service: trained gradient boosting and logistic regression models with scikit-learn, reached 0.88 ROC-AUC, tracked experiments with MLflow, served predictions through a FastAPI endpoint packaged in Docker.
+- Semantic search for course notes: fine-tuned a sentence transformer in PyTorch, built a FAISS index, evaluated with recall@5 of 0.91, deployed on Render.
+- Drift monitor: Python job that compares live feature distributions with training data and alerts on PSI above 0.2.
+
+EXPERIENCE
+- Machine Learning Intern, Northwind Analytics (6 months): built feature pipelines in pandas and SQL, cut model training time by 40 percent, wrote unit tests with pytest.
+
+SKILLS
+Python, SQL, NumPy, pandas, scikit-learn, PyTorch, FastAPI, Docker, Git, MLflow, statistics, feature engineering
+
+CERTIFICATIONS
+Deep Learning Specialization (Coursera)
+
+EDUCATION
+B.Tech Computer Science, 2025, CGPA 8.7

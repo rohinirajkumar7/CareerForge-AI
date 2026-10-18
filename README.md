@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 CareerForge AI
+#  CareerForge AI
 
 **An AI career coach that is grounded in curated knowledge, hardened against prompt injection, private by default, and measured with a built-in evaluation dashboard.**
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 CareerForge AI takes a resume and walks the candidate through a complete career-preparation journey: **analysis → skill gap → roadmap → portfolio projects → mock interview**. Each stage is a dedicated Gemini-powered agent.
 
@@ -31,7 +31,7 @@ Most "resume AI" demos are a single prompt wrapped in a UI. This project is buil
 
 ---
 
-## ✨ Features
+##  Features
 
 ### The five-stage coaching pipeline
 
@@ -47,16 +47,16 @@ Supported target roles: **AI / Machine Learning Engineer · Data Scientist · Da
 
 ### Engineering features
 
-- 🔎 **BM25 retrieval-augmented generation** over a 40-chunk curated knowledge base, with role aliases and abstention when a role is not covered
-- 🛡️ **Prompt-injection defence** with 18 detection rules, sentence-level neutralization, randomized isolation markers and output grounding
-- 🔒 **Privacy redaction** of emails, phone numbers, profile links, ID numbers, dates of birth, addresses and names, with a preview of what the AI sees and a *Delete my data* button
-- 📊 **Evaluation dashboard** (Streamlit page) for retrieval, security, privacy and live-model metrics
-- ✅ **Validated structured output** (Pydantic) with retries, backoff and user-safe error messages
-- 🧪 **176 tests**, no network or API key needed to run them
+-  **BM25 retrieval-augmented generation** over a 40-chunk curated knowledge base, with role aliases and abstention when a role is not covered
+-  **Prompt-injection defence** with 18 detection rules, sentence-level neutralization, randomized isolation markers and output grounding
+-  **Privacy redaction** of emails, phone numbers, profile links, ID numbers, dates of birth, addresses and names, with a preview of what the AI sees and a *Delete my data* button
+-  **Evaluation dashboard** (Streamlit page) for retrieval, security, privacy and live-model metrics
+-  **Validated structured output** (Pydantic) with retries, backoff and user-safe error messages
+-  **176 tests**, no network or API key needed to run them
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <table>
   <tr>
@@ -135,7 +135,7 @@ Design rules that shape the code:
 
 ---
 
-## 🔬 Technical deep dive
+##  Technical deep dive
 
 ### 1. Shared LLM layer · `core/llm.py`, `core/schemas.py`
 
@@ -198,7 +198,7 @@ It is deliberately conservative: dates, version numbers, percentages, IP address
 
 ---
 
-## 📊 Evaluation results
+##  Evaluation results
 
 All numbers come from `python -m evaluation.run` (offline) and `python -m evaluation.run --live --runs 3` (real model: `gemini-3.5-flash-lite`).
 
@@ -245,7 +245,7 @@ Injection detection by category:
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 pip install -r requirements-dev.txt
@@ -276,7 +276,7 @@ python scripts/make_sample_resume.py     # creates sample_resume.docx to upload 
 
 ---
 
-## 📁 Project structure
+##  Project structure
 
 ```
 CareerForge-AI/
@@ -317,7 +317,7 @@ CareerForge-AI/
 
 ---
 
-## 🚀 Getting started
+##  Getting started
 
 ### Prerequisites
 
@@ -371,7 +371,7 @@ Open **http://localhost:8501**. The Evaluation Dashboard appears in the sidebar 
 
 ---
 
-## 🖥 Using the app
+##  Using the app
 
 1. **Upload** a PDF or DOCX resume (try `sample_resume.docx` after running `scripts/make_sample_resume.py`).
 2. **Review privacy.** Redaction is on by default. Add your name if it was not auto-detected, and open **What the AI will see** to confirm.
@@ -386,7 +386,7 @@ Open **http://localhost:8501**. The Evaluation Dashboard appears in the sidebar 
 
 ---
 
-## 🧭 Design decisions
+##  Design decisions
 
 | Decision | Reason |
 |---|---|
@@ -400,7 +400,7 @@ Open **http://localhost:8501**. The Evaluation Dashboard appears in the sidebar 
 
 ---
 
-## ⚠️ Limitations and roadmap
+##  Limitations and roadmap
 
 **Known limitations**
 
@@ -422,14 +422,3 @@ Open **http://localhost:8501**. The Evaluation Dashboard appears in the sidebar 
 
 ---
 
-## 🤝 Contributing
-
-Issues and pull requests are welcome. Before opening a PR run `ruff check .` and `pytest -q`. If you change a rule, redaction pattern or the knowledge base, add a test and re-run `python -m evaluation.run` so the dashboard stays current.
-
-## 📄 License
-
-No license has been specified yet. Add a `LICENSE` file (for example MIT) before others reuse the code.
-
-## 👤 Author
-
-Built by [@rohinirajkumar7](https://github.com/rohinirajkumar7).
